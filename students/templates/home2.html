@@ -1,0 +1,6 @@
+<form action = {% url 'list' %} method = "post">
+    {% csrf_token %}
+    {{StudentForm }}
+    <input type="submit" value="Submit">
+    </form>
+    
